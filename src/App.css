@@ -1,0 +1,10 @@
+/* App.css */
+.app {
+  min-height: 100vh;
+  background-color: var(--bg-light);
+  transition: background-color 0.3s;
+}
+
+.app.dark {
+  background-color: var(--bg-dark);
+}
