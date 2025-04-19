@@ -1,13 +1,24 @@
 import { useState } from 'react';
-import { EnvelopeIcon, PhoneIcon, MapPinIcon } from '@heroicons/react/24/solid';
+import { EnvelopeIcon } from '@heroicons/react/24/solid';
 import './Contact.css';
 
 export default function Contact() {
   const [status, setStatus] = useState("");
   
-  const handleSubmit = async (e) => {
+  interface FormElements extends HTMLFormControlsCollection {
+    name: HTMLInputElement;
+    email: HTMLInputElement;
+    subject: HTMLInputElement;
+    message: HTMLTextAreaElement;
+  }
+
+  interface FormWithElements extends HTMLFormElement {
+    elements: FormElements;
+  }
+
+  const handleSubmit = async (e: React.FormEvent<FormWithElements>) => {
     e.preventDefault();
-    const form = e.target;
+    const form = e.currentTarget;
     const data = new FormData(form);
     
     try {
@@ -25,7 +36,7 @@ export default function Contact() {
       } else {
         setStatus("ERROR");
       }
-    } catch (error) {
+    } catch {
       setStatus("ERROR");
     }
   };
@@ -94,7 +105,7 @@ export default function Contact() {
                 <textarea
                   id="message"
                   name="message"
-                  rows="4"
+                  rows={4}
                   required
                   className="form-textarea"
                 ></textarea>

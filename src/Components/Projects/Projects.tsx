@@ -11,7 +11,7 @@ export default function Projects() {
         <div className="user-projects">
           <div className="images-right">
             <picture>
-              <source type="image/webp" srcSet="/src/assets/img/webp/netflix-clone.webp" alt="simple designs" />
+              <source type="image/webp" srcSet="/src/assets/img/webp/netflix-clone.webp" />
               <img alt="simple designs" src="/src/assets/img/jpg/netflix-clone.jpg" />
             </picture>
           </div>
@@ -36,7 +36,7 @@ export default function Projects() {
         <div className="user-projects">
           <div className="images-left">
             <picture>
-              <source type="image/webp" srcSet="/src/assets/img/webp/mediacontrol.webp" alt="Media-control" />
+              <source type="image/webp" srcSet="/src/assets/img/webp/mediacontrol.webp" />
               <img alt="Media Control" src="/src/assets/img/jpg/mediacontrol.png" />
             </picture>
           </div>
@@ -63,7 +63,7 @@ export default function Projects() {
         <div className="user-projects">
           <div className="images-right">
             <picture>
-              <source type="image/webp" srcSet="/src/assets/img/webp/js2.webp" alt="Interactive JS Projects" />
+              <source type="image/webp" srcSet="/src/assets/img/webp/js2.webp" />
               <img alt="Interactive JS Projects" src="/src/assets/img/jpg/js2.png" />
             </picture>
           </div>
@@ -87,7 +87,7 @@ export default function Projects() {
         <div className="user-projects">
           <div className="images-left">
             <picture>
-              <source type="image/webp" srcSet="/src/assets/img/webp/papaji.webp" alt="Food Ordering App" />
+              <source type="image/webp" srcSet="/src/assets/img/webp/papaji.webp" />
               <img alt="Food Ordering App" src="/src/assets/img/jpg/js2.png" />
             </picture>
           </div>

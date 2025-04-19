@@ -1,7 +1,12 @@
 import { MoonIcon, SunIcon } from '@heroicons/react/24/solid';
 import './Header.css';
 
-export default function Header({ darkMode, setDarkMode }) {
+interface HeaderProps {
+  darkMode: boolean;
+  setDarkMode: (value: boolean) => void;
+}
+
+export default function Header({ darkMode, setDarkMode }: HeaderProps) {
   return (
     <header className="header">
       <div className="container header-container">

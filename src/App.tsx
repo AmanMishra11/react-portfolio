@@ -1,12 +1,12 @@
 import { useState } from "react";
-import Header from "./components/Header/Header.jsx";
-import Hero from "./components/Hero/Hero.jsx";
-import About from "./components/About/About.jsx";
-import Skills from "./Components/Skills/Skills.jsx";
-import Projects from "./components/Projects/Projects.jsx";
-import Resume from "./components/Resume/Resume.jsx";
-import Contact from "./Components/Contact/Contact.jsx";
-import Footer from "./Components/Footer/Footer.jsx";
+import Header from "./Components/Header/Header.js";
+import Hero from "./Components/Hero/Hero.js";
+import About from "./Components/About/About.js";
+import Skills from "./Components/Skills/Skills.js";
+import Projects from "./Components/Projects/Projects.js";
+import Resume from "./Components/Resume/Resume.js";
+import Contact from "./Components/Contact/Contact.js";
+import Footer from "./Components/Footer/Footer.js";
 import "./App.css";
 import 'devicon';
 
