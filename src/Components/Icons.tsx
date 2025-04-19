@@ -1,6 +1,6 @@
-import React from 'react';
+import { SVGProps } from 'react';
 
-export function GithubIcon(props) {
+export function GithubIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg 
       xmlns="http://www.w3.org/2000/svg" 
@@ -13,7 +13,7 @@ export function GithubIcon(props) {
   );
 }
 
-export function LinkedinIcon(props) {
+export function LinkedinIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg 
       xmlns="http://www.w3.org/2000/svg" 
@@ -26,7 +26,7 @@ export function LinkedinIcon(props) {
   );
 }
 
-export function TwitterIcon(props) {
+export function TwitterIcon(props: SVGProps<SVGSVGElement>) {
   return (
     <svg 
       xmlns="http://www.w3.org/2000/svg" 
